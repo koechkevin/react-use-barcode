@@ -6,6 +6,9 @@
   "author": "Kevin Koech",
   "license": "MIT",
   "types": "index.d.ts",
+  "repository": {
+    "url": "https://github.com/koechkevin/react-use-barcode"
+  },
   "scripts": {
     "build": "babel src/index.ts -d dist --extensions .ts"
   },
