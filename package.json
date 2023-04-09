@@ -1,16 +1,22 @@
 {
   "name": "react-use-barcode",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "React Hook to generate barcode image used in any platform",
-  "main": "src/index.ts",
+  "main": "index.js",
   "author": "Kevin Koech",
   "license": "MIT",
   "types": "index.d.ts",
+  "keywords": [
+    "React barcode",
+    "1d barcode",
+    "jsbarcode",
+    "react-pdf barcode"
+  ],
   "repository": {
     "url": "https://github.com/koechkevin/react-use-barcode"
   },
   "scripts": {
-    "build": "babel src/index.ts -d dist --extensions .ts"
+    "build": "babel src/index.ts -d . --extensions .ts"
   },
   "dependencies": {
     "canvas": "^2.11.2",
