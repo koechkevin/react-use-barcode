@@ -28,12 +28,13 @@ const MyComponent = () => {
 The `useBarcode` hook takes two parameters:
 
 `value`: the value to be encoded as a barcode (required).
-`options`: an object containing options for the barcode generation (optional)
-The options parameter is an object with two properties:
 
-`height`: the height of the barcode image.
-`width`: the width of the barcode image.
-any option passed to [JSBarcode](https://www.npmjs.com/package/jsbarcode)
+`options`: an object containing options for the barcode generation (optional)
+The options parameter is an object with properties:
+
+- `height`: the height of the barcode image.
+- `width`: the width of the barcode image.
+- Any option passed to [JSBarcode](https://www.npmjs.com/package/jsbarcode)
 
 The `useBarcode` hook returns a base64-encoded string representing the barcode image, or undefined if the image has not yet been generated.
 
