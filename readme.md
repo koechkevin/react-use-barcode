@@ -1,14 +1,14 @@
-## react-use-barcode
+# react-use-barcode
 
 A React hook for generating barcode images.
 
-### Installation
+## Installation
 
 ```sh
 npm install react-use-barcode
 ```
 
-### Usage
+## Usage
 
 To use the useBarcode hook, simply import it into your component and call it with the value and options parameters:
 
